@@ -4,10 +4,10 @@ FEED_URL = 'http://plexapp.com/podcasts/podcast.xml'
 
 ####################################################################################################
 def Start():
-    Plugin.AddPrefixHandler('/music/plexpodcasts', MainMenu, 'Plex Podcasts', ICON, ART)
+    Plugin.AddPrefixHandler('/music/plexpodcast', MainMenu, 'Plex Podcast', ICON, ART)
     
     ObjectContainer.art = R(ART)
-    ObjectContainer.title1 = 'Plex Podcasts'
+    ObjectContainer.title1 = 'Plex Podcast'
     
     TrackObject.thumb = R(ICON)
     
