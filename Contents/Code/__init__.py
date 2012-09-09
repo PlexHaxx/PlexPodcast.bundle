@@ -1,11 +1,9 @@
-NAMESPACES = {'pandora':'http://www.pandora.com/rss/1.0/modules/pandora/'}
 ART = 'art-default.jpg'
 ICON = 'icon-default.jpg'
 FEED_URL = 'http://plexapp.com/podcasts/podcast.xml'
 
 ####################################################################################################
 def Start():
-    # Current artwork.jpg free for personal use only - http://squaresailor.deviantart.com/art/Apple-Desktop-52188810
     Plugin.AddPrefixHandler('/music/plexpodcasts', MainMenu, 'Plex Podcasts', ICON, ART)
     
     ObjectContainer.art = R(ART)
