@@ -1,5 +1,5 @@
 ART = 'art-default.jpg'
-ICON = 'icon-default.jpg'
+ICON = 'icon-default.png'
 FEED_URL = 'http://plexapp.com/podcasts/podcast.xml'
 
 ####################################################################################################
